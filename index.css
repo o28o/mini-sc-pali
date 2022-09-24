@@ -168,7 +168,8 @@ h2,
 h3,
 h4,
 h5 {
-  color: var(--off-black);
+  font-family: sans-serif;
+  color: var(--dark-gray) ;
 }
 
 .dark p,
@@ -180,7 +181,7 @@ h5 {
 .dark h3,
 .dark h4,
 .dark h5 {
-  color: var(--off-white);
+  color: var(--light-gray);
 }
 
 p .pli-lang,
@@ -192,8 +193,7 @@ h2 .pli-lang,
 h3 .pli-lang,
 h4 .pli-lang,
 h5 .pli-lang {
-  font-family: sans-serif;
-  color: var(--dark-gray);
+  color: var(--off-black);
 }
 
 .dark p .pli-lang,
@@ -205,7 +205,7 @@ h5 .pli-lang {
 .dark h3 .pli-lang,
 .dark h4 .pli-lang,
 .dark h5 .pli-lang {
-  color: var(--light-gray);
+  color: var(--off-white) ;
 }
 
 a {
